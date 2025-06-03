@@ -14,9 +14,6 @@ export abstract class Store{
 
     }
     initRoom(roomId: string) {
-        // Initialize a room with the given roomId
-        // This could involve setting up a new data structure to hold chats
-        // and any other necessary metadata for the room.
 
     }
 
@@ -24,11 +21,12 @@ export abstract class Store{
 
     }
 
-    addChat(userId: UserId, name: string, room: string, message: string, limit: number, offset: number) {
+    addChat(userId: UserId, name: string, room: string, message: string){
 
     }
 
     upvote(userId: UserId, room: string, chatId: string) {
-        // Logic to upvote a chat message
+        
     }
+
 }
