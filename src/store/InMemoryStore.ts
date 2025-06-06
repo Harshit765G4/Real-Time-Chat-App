@@ -1,4 +1,4 @@
-import { UserId, Chat, Store } from "./store/Store";
+import { UserId, Chat, Store } from "./Store";
 let globalChatId = 0;
 
 export interface Room {
