@@ -1,5 +1,5 @@
 import { connection } from "websocket";
-import { OutgoingMessage } from "./store/messages/outgoingMessages";
+import { OutgoingMessage } from "./messages/outgoingMessages";
 
 interface User {
     name: string;
